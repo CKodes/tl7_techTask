@@ -1,5 +1,5 @@
 import React from 'react';
-import './TextContentBox.css';
+import './index.css';
 
 const TextContentBox = ({ para, title }) => {
   return (
