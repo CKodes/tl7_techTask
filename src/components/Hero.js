@@ -7,7 +7,8 @@ function Hero() {
       <div className='hero-holder'>
         <div className='main-style'>
           <div className='hero-title'>
-            <h1>To Dare All Things for a Righteous End.</h1>
+            <h1>Techladies Bootcamp #7 Technical Task</h1>
+            <h2 className='scrolldown'>Scrolldown</h2>
           </div>
         </div>
       </div>
