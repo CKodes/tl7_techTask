@@ -12,29 +12,28 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .text-content-box {
+    padding: 2rem 3rem;
+  }
+
   .content-holder {
     display: flex;
-    gap: 0rem;
-    padding-right: 0rem;
-    padding-left: 0rem;
+    gap: 2.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
     color: #6c000c;
   }
 
   .main-style {
     max-width: 1366px;
-  }
-
-  .img-content-box {
-    padding: 1rem 1rem;
-    margin: 1rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .content-holder {
-    gap: 5rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
   }
 }
