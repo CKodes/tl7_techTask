@@ -1,11 +1,11 @@
 .img-content-box {
-  background: white;
-  border: 3px solid #6c000c;
-  border-radius: 1rem;
-  padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
   margin: 2rem;
+  padding: 1rem 2rem;
+  background: white;
+  border: 3px solid #6c000c;
+  border-radius: 1rem;
 }
 
 .img-content-box h1 {
