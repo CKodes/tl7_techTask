@@ -1,5 +1,5 @@
 import React from 'react';
-import { ImgContentBox } from '../ImgContentBox';
+import ImgContentBox from '../ImgContentBox';
 import LinkedInLogo from '../images/linkedinImg.png';
 import GithubLogo from '../images/githubImg.png';
 import TechEdtLogo from '../images/techedtImg.png';
