@@ -1,0 +1,37 @@
+.text-content-box {
+  /* background-color: #fddcd1; */
+  /* background-color: #00546b; */
+  background-color: #ebc2be;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.text-content-box h1 {
+  padding-bottom: 0.7rem;
+
+  color: black;
+}
+.text-content-box p {
+  color: #6c000c;
+}
+
+.text-content-box a {
+  color: #6c000c;
+  text-decoration: underline 0.175em white;
+  transition: text-decoration-color 0.7s;
+}
+
+.text-content-box a:hover {
+  text-decoration: underline 0.175em #6c000c;
+  transition: text-decoration-color 0.7s;
+}
+
+@media screen and (min-width: 768px) {
+  .content-box {
+    margin: 1rem auto;
+  }
+}
