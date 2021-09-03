@@ -1,5 +1,5 @@
-import './Hero.css';
-import Navbar from './Navbar';
+import Navbar from '../Navbar/index';
+import './index.css';
 
 function Hero() {
   return (
