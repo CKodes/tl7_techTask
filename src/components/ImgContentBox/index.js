@@ -1,7 +1,7 @@
 import React from 'react';
-import './ImgContentBox.css';
+import './index.css';
 
-export const ImgContentBox = ({ img, title, website }) => {
+const ImgContentBox = ({ img, title, website }) => {
   return (
     <article className='img-content-box'>
       <div className='img-holder'>
@@ -17,3 +17,5 @@ export const ImgContentBox = ({ img, title, website }) => {
     </article>
   );
 };
+
+export default ImgContentBox;
