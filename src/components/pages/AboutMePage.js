@@ -3,7 +3,7 @@ import TextContentBox from '../TextContentBox';
 
 const people = {
   title: 'People',
-  para: 'Yeah, but your scientists were so preoccupied with whether or not they could, they did not stop to think if they should.',
+  para: 'The most poignant lesson that the pandemic has taught me is the affirmation that strong relationships lies at the core of success. One of the greatest privilege in my professional life is having had the opportunity to work with, and learn from inspiring individuals. It has moulded me into a person who values relationships, and has made nurturing strong connections with people a lifelong endeavour of mine.',
 };
 
 const design = {
@@ -18,7 +18,7 @@ const technology = {
 
 function AboutMePage() {
   return (
-    <section className='main-style'>
+    <section className='main-style content-holder'>
       <TextContentBox title={people.title} para={people.para} />
       <TextContentBox title={design.title} para={design.para} />
       <TextContentBox title={technology.title} para={technology.para} />
