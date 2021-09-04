@@ -1,5 +1,5 @@
 import React from 'react';
-import TextContentBox from '../TextContentBox';
+import TextContentBox from '../components/TextContentBox';
 
 const people = {
   title: 'People',

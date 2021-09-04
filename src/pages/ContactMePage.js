@@ -1,8 +1,8 @@
 import React from 'react';
-import ImgContentBox from '../ImgContentBox';
-import LinkedInLogo from '../images/linkedinImg.png';
-import GithubLogo from '../images/githubImg.png';
-import TechEdtLogo from '../images/techedtImg.png';
+import ImgContentBox from '../components/ImgContentBox';
+import LinkedInLogo from '../assets/images/linkedinImg.png';
+import GithubLogo from '../assets/images/githubImg.png';
+import TechEdtLogo from '../assets/images/techedtImg.png';
 
 const linkedIn = {
   img: { LinkedInLogo },
@@ -30,6 +30,7 @@ function ContactMePage() {
         title={linkedIn.title}
         website={linkedIn.website}
       />
+
       <ImgContentBox
         img={GithubLogo}
         title={gitHub.title}
