@@ -1,4 +1,5 @@
 import Navbar from '../Navbar/index';
+import Weather from '../Weather';
 import './index.css';
 
 function Hero() {
@@ -8,6 +9,9 @@ function Hero() {
         <div className='main-style'>
           <div className='hero-title'>
             <h1>Techladies Bootcamp #7 Technical Task</h1>
+            <div className='weather-box'>
+              <Weather />
+            </div>
             <h2 className='scrolldown'>Scrolldown</h2>
           </div>
         </div>
