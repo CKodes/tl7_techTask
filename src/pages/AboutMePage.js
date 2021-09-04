@@ -3,11 +3,11 @@ import TextContentBox from '../components/TextContentBox';
 
 const people = {
   title: 'People',
-  para: 'One of the greatest privilege in my professional life is having had the opportunity to work with, and learn from inspiring individuals.',
+  para: 'Of all the lessons that the pandemic has taught me, the most poignant one has been the affirmation that strong relationships lies at the core of success. The greatest privilege in my professional life is having had the opportunity to work with, and learn from inspiring individuals.',
   paraTwo:
-    'It has moulded me into a person who values relationships, and makes nurturing strong connections with people a lifelong endeavour.',
+    'Travelling with differently-abled athletes, working together with caregivers and nurses, gave me a treasured perspective and appreciation of life and our social interdependencies. These experiences has moulded me into a person who values relationships, and makes nurturing strong connections with people a lifelong endeavour.',
   paraThree:
-    'These hard times have re-affirm my beliefs that strong relationships lies at the core of success, and I am looking forward to learn, connect as well as forge new friendships with peers in the bootcamp.',
+    'These challenging times have re-affirm my beliefs in the importance of building relationships, and I am looking forward to learn, connect as well as forge new friendships with peers in the bootcamp.',
 };
 
 const design = {
@@ -25,7 +25,7 @@ const technology = {
   paraTwo:
     'The trajectory that I see myself in for the next 5 years is to do a deep-dive in the technical aspects of front-end and interaction development. Armed with the technical expertise, I am hoping it would lead to a succesful progression to a more people-oriented role (eg technical consultant / project manager).',
   paraThree:
-    'I am fortunate to have a network of peers, mentors, and organizations like The Codette Project to support me as I pursue this endeavour, and I look moving further in that path with Techladies.',
+    'I am fortunate to have a network of peers, mentors, and organizations like The Codette Project to support me as I pursue this endeavour, and I look forward to moving closer to my goals with Techladies.',
 };
 
 function AboutMePage() {
