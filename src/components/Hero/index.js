@@ -8,7 +8,7 @@ function Hero() {
       <div className='hero-holder'>
         <div className='main-style'>
           <div className='hero-title'>
-            <h1>Techladies Bootcamp #7 Technical Task</h1>
+            <h1>TechLadies Bootcamp #7 Technical Task</h1>
             <div className='weather-box'>
               <Weather />
             </div>
